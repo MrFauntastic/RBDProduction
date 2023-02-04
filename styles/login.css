@@ -84,3 +84,7 @@ padding: 20px ;
     font-weight: bolder;
     height: 70px;
 }
+
+.log .fa-bars{
+    color: white;
+}
