@@ -1,0 +1,86 @@
+
+.log{
+    min-height: 100vh;
+    background: url(../Images/space.jpg) ;
+    background-size: cover;
+}
+
+.log .brand a{
+    color: white;
+}
+
+.log ul li a{
+    color: white
+}
+
+.log ul li a:hover{
+    color: white;
+}
+
+.login .form-items{
+    color: white;
+}
+.login h1{
+    color:white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.login{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 20px ;
+}
+
+.login form{
+    margin-top: 1rem;
+}
+
+.login .form-items{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.login .form-items:nth-child(3){
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.login .form-items:nth-child(3) label{
+    margin-left: 5px;
+}
+
+.login .form-items input{
+    height: 20px;
+    padding: 5px 10px;
+    background:transparent;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.login form button{
+    color: white;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    width: 100%;
+    height: 35px;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+}
+
+.login form button:hover{
+    background-color:black ;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    height: 70px;
+}
